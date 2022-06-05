@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="앵게임넷, 츠알옥션, 명단">
+  <meta name="description" content="앵게임넷, 츠알옥션, 명단">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title >츠알 옥션 명단</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap-icons.css" rel="stylesheet">
+  <link href="css/style.css?ver=0.0.17" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-btn-fill" viewBox="0 0 16 16">
+  <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+</svg>
+  <!-- ======= Header ======= -->
+  <header id="header" class="header-top">
+    <div class="container">
+    </div>
+  </header><!-- End Header -->
+  <div style="position:absolute;top:0;right:1rem;">
+	  <a href="lol_record.html"><span style="font-size:2em;color:white;">본선 대진, 결과 보러가기</span></a>
+	  <a href="lol_record_3.html"><span style="font-size:2em;color:white;margin-left:1.4rem;">예선 대진, 결과 보러가기</span></a>
+	  <a href="lol_record_2.html"><span style="font-size:2em;color:white;margin-left:1.4rem;">스크림 전적 보러가기</span></a>
+  </div>
+  <div id="tier_list" class="container">
+	
+	<div class="title" style="z-index:1;">
+		<img src="img/ci_white01.png" style="position:absolute;left:20px;top:10px;z-index:2;">
+		<!-- <img src="img/kodcup_bg.png" style="position:absolute;left:0;width:100%;object-fit: cover;z-index:1;visibility: visible;"> -->
+		<div style="margin-top:40px;z-index:2;">
+			<!-- <a href="http://www.aengji.com/aenggamenet/" target="_blank" style="font-family:Jua;text-decoration: none;"><span style="font-size:1.6em;color:#FCC9FD;"><strong>앵</strong></span><span style="font-size:1.4em;color:white;">게임넷</span></a> -->
+			<h1 id="title">츠알 옥션</h1>
+			<h2 id="ver">선발 명단</h2>
+		</div>
+		<div style="width:100%;margin-top:20px;margin-left:20px;z-index:11;text-align:center;font-family:Jua">
+			<h4 style="z-index:11;">주최: 아프리카TV <a id="tier_link" href="https://bj.afreecatv.com/rudals5467" target="_blank"> 츠</a><a id="tier_link" href="https://bj.afreecatv.com/cnsgkcnehd74" target="_blank">알</a></h4>
+			<h4><img src="img/live.png" style="height:30px;margin-top:-8px;"> 아이콘은 BJ가 방송중일 때 표시됩니다. </h4>
+			<h4 style="z-index:11;">방송중인 BJ 사진을 클릭 하면 방송에 입장합니다. (2분 간격으로 갱신)
+			<br>방송중이 아닌 경우 방송국으로 이동합니다.</h4>
+			<h4>보다 자세한 정보를 보시려면 ELO, OP.GG 아이콘을 클릭하세요.</h4>
+		</div>
+	</div>
+	
+	<div id="container_list">
+		<div id="img_tier_0" class="img_tier" style="margin-top:0em;">
+			<h2 class="tier_desc"></h2>
+		</div>
+		<div id="container_tier_0" class="container_tier" style="z-index:20;">
+	</div>
+	
+  </div>
+    
+  <div class="credits">
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/lazysizes.min.js" type="text/javascript"></script>
+  <!-- <script src="js/elo_data_lol.js?ver=0.0.7"></script> -->
+  <script src="js/util.js?ver=0.0.17"></script>
+  
+  <script>
+  var team_list2 = {"앵지팀":[["염보성","yuambo","//profile.img.afreecatv.com/LOGO/yu/yuambo/yuambo.jpg","368","silberking","S"],["토마토","freshtomato","//profile.img.afreecatv.com/LOGO/fr/freshtomato/freshtomato.jpg","39","센터99게이트","S"],["민찬기","ckmin706","//profile.img.afreecatv.com/LOGO/ck/ckmin706/ckmin706.jpg","163","민잔디","P"],["앵지","gks2wl","//profile.img.afreecatv.com/LOGO/gk/gks2wl/gks2wl.jpg","45","중수 미드","G"],["조경훈","cnsgkcnehd74","//profile.img.afreecatv.com/LOGO/cn/cnsgkcnehd74/cnsgkcnehd74.jpg","176","봉꼬3cm","P"]],"다누리팀":[["킴성태","rrvv17","//profile.img.afreecatv.com/LOGO/rr/rrvv17/rrvv17.jpg","197","밸붕태","G"],["클템","killgusdnk","//profile.img.afreecatv.com/LOGO/ki/killgusdnk/killgusdnk.jpg","25","정말개같다","D"],["서리","ys9024","//profile.img.afreecatv.com/LOGO/ys/ys9024/ys9024.jpg","83","비만햄수터","G"],["다누리","dkrn56","//profile.img.afreecatv.com/LOGO/dk/dkrn56/dkrn56.jpg","911","누라가스","G"],["안녕수야","tntntn13","//profile.img.afreecatv.com/LOGO/tn/tntntn13/tntntn13.jpg","46","pkode","D"]],"듀단팀":[["나는푸르","bhw2209","//profile.img.afreecatv.com/LOGO/bh/bhw2209/bhw2209.jpg","255","두피가 턱에 달림","G"],["이경민","rudals5467","//profile.img.afreecatv.com/LOGO/ru/rudals5467/rudals5467.jpg","128","난챌정먹","D"],["구루미","9rumee","//profile.img.afreecatv.com/LOGO/9r/9rumee/9rumee.jpg","23","왕구추",""],["듀단","dudadi770","//profile.img.afreecatv.com/LOGO/du/dudadi770/dudadi770.jpg","6","듀프트","G"],["애교용","siiyeon","//profile.img.afreecatv.com/LOGO/si/siiyeon/siiyeon.jpg","8","박시연","S"]],"김레인팀":[["손석희","qnrqndnjs","//profile.img.afreecatv.com/LOGO/qn/qnrqndnjs/qnrqndnjs.jpg","1509","클덩이","D"],["꿀혜","coppag","//profile.img.afreecatv.com/LOGO/co/coppag/coppag.jpg","173","칸 나","G"],["야옹민지","mingee1030","//profile.img.afreecatv.com/LOGO/mi/mingee1030/mingee1030.jpg","1231","야옹세율","P"],["김레인","kdb1223","//profile.img.afreecatv.com/LOGO/kd/kdb1223/kdb1223.jpg","18","IlIIlIIlIlIIlIl","G"],["다쁘","ekgml8766","//profile.img.afreecatv.com/LOGO/ek/ekgml8766/ekgml8766.jpg","42","쁘릴라","G"]],"민하짱팀":[["뜨뜨뜨뜨","seokwngud","//profile.img.afreecatv.com/LOGO/se/seokwngud/seokwngud.jpg","62","사연이있었어진짜","D"],["주보리","under444","//profile.img.afreecatv.com/LOGO/un/under444/under444.jpg","351","느그보리","S"],["효딤","tladl5572","//profile.img.afreecatv.com/LOGO/tl/tladl5572/tladl5572.jpg","139","쇼쵸표효","G"],["민하짱","minttang","//profile.img.afreecatv.com/LOGO/mi/minttang/minttang.jpg","1357","불주먹노틸","G"],["문월","moonwol0614","//profile.img.afreecatv.com/LOGO/mo/moonwol0614/moonwol0614.jpg","352","웅월웅월","B"]],"단아냥팀":[["케이","zpdl1313","//profile.img.afreecatv.com/LOGO/zp/zpdl1313/zpdl1313.jpg","243","박케이","B"],["김윤환","brainzerg7","//profile.img.afreecatv.com/LOGO/br/brainzerg7/brainzerg7.jpg\t","150","암탄소녀단김윤환","G"],["김민교","phonics1","//profile.img.afreecatv.com/LOGO/ph/phonics1/phonics1.jpg","5","사나이묵직한주먹","D"],["단아냥","ocollllll","//profile.img.afreecatv.com/LOGO/oc/ocollllll/ocollllll.jpg","145","대답","G"],["기룡이","feet10","//profile.img.afreecatv.com/LOGO/fe/feet10/feet10.jpg","423","포크여왕","P"]]};
+  </script>
+  
+  <script src="js2/lol_team.js?ver=0.0.17"></script>
+  <script src="https://test.aengji.com/afreecatv/lol_team.min.js?ver=0.0.1"></script>
+
+</body>
+
+</html>
